@@ -39,7 +39,7 @@ These cannot be changed, as there are only 3 Pico pins that take analog input.
 
 You could also connect the button to RUN (Pin 30).
 
-To run the code simply save snake.py and functions.py on your Pico (probably using ThonnyIDE). If you want to run the code without connecting pico to your computer rename snake.py to main.py. However, be aware that Pico only handles a certain voltage and you cannot, for example, connect 9V battery to the microcontroller.
+To run the code simply save main.py and functions.py on your Pico (probably using ThonnyIDE). Be aware that Pico only handles a certain voltage and you cannot, for example, connect 9V battery to the microcontroller.
 
 I am looking to optimize the joystick input and a clean way to restart the game. If you have any ideas let me know. There are also some issues with selfeat function. You can set your own render time, I found 0.2 seconds is good enough for a decent gameplay. 
 
